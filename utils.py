@@ -6,10 +6,17 @@ def titulo (texto):
     print(texto.center(40))
     linha()
 
-def ler_numero():
+def linha ():
+    print("-"*40)
+
+def titulo (texto):
+    linha()
+    print(texto.center(40))
+    linha()
+
+def ler_numero(mensagem="Digite um número: "):
     while True:
         try:
-            valor= float(input("Digite o valor: "))
-            return  valor
+            return float(input(mensagem))
         except:
             print("Valor inválido. Tente novamente")
