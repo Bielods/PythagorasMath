@@ -1,0 +1,2 @@
+OPERACOES= ('Adição', 'Subtração', 'Multiplicação', 'Divisão', 'Expressão Numérica', 'Porcentagem', 'Equação de 1º Grau', 'Equação de 2º Grau', 'Bhaskara', 'Parábola', 'Regra de Três', 'Frações', 'Potenciação', 'Radiciação', 'Área', 'Perímetro', 'Teorema de Pitágoras', 'Média', 'Moda', 'Mediana', 'Juros Simples', 'Juros Compostos', 'Probabilidade')
+FIGURAS= ('Quadrado', 'Círculo', 'Triângulo', 'Retângulo', 'Pentágono', 'Hexágono')
