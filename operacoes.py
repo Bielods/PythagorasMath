@@ -131,3 +131,28 @@ def juros_simples():
     juros= c * (i/100) * t
     montante= c + juros
     print(f"O valor dos juros resultara em {juros} e o montante ficará em {montante}")
+
+def juros_compostos():
+     c= ler_numero("Digite o capital inicial: ")
+     i= ler_numero("Digite o valor da taxa de juros: ")
+     t= ler_numero("Digite o tempo: ")
+     montante= c * (1 + i / 100) ** t
+     juros= montante - c
+     print(f"O valor dos juros resultara em {juros} e o montante ficará em {montante}")
+
+def probabilidade():
+    fav= ler_numero("Digite o número de casos favoráveis: ")
+    pos= ler_numero("Digite o número de casos possíveis: ")
+    if pos == 0:
+        print("O número de possíveis não pode ser 0")
+    else:
+        prob= fav / pos
+        print(f"A probabilidade de {fav} casos favoráveis em {pos} possíveis é {prob*100:.2f}%")
+
+def expressao_numerica():
+    expressao = input("Digite a expressão numérica completa: ")
+    try:
+        resultado = eval(expressao)
+        print(f"O resultado da expressão é {resultado}")
+    except:
+        print("Expressão inválida")
