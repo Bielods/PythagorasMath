@@ -1,7 +1,7 @@
 # PythagorasMath
 
 ## Descrição
-Resolvedor matemático interativo desenvolvido em Python. O sistema permite resolver 
+Solucionador matemático interativo desenvolvido em Python. O sistema permite resolver 
 operações matemáticas do básico ao avançado via terminal, com menu de seleção por 
 conceito e validação de entradas.
 
